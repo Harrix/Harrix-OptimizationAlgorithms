@@ -7,7 +7,7 @@ HarrixOptimizationAlgorithms
 
 https://github.com/Harrix/HarrixOptimizationAlgorithms
 
-Данные распространяются по лицензии Apache License, Version 2.0.
+Данные распространяются по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
 
 Список алгоритмов
 -----------------
