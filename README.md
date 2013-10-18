@@ -31,7 +31,7 @@ https://github.com/Harrix/HarrixOptimizationAlgorithms
 
 В корневой папке находятся две папки. 
 
-В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixOptimizationAlgorithms.tex**](../master/_HarrixOptimizationAlgorithms.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixOptimizationAlgorithms.tex**](../master/_HarrixOptimizationAlgorithms.tex).
+В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixOptimizationAlgorithms.tex**](../master/Source/_HarrixOptimizationAlgorithms.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixOptimizationAlgorithms.tex**](../master/Source/_HarrixOptimizationAlgorithms.tex).
 
 В папке [**images**](../master/images) находятся служебные рисунки для отображения в этом файле.
 
