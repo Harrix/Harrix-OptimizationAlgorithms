@@ -12,8 +12,28 @@ https://github.com/Harrix/HarrixOptimizationAlgorithms
 Список алгоритмов
 -----------------
 
- * **MHL_StandartBinaryGeneticAlgorithm** - стандартный генетический алгоритм на бинарных строках;
- * **MHL_StandartRealGeneticAlgorithm** - стандартный генетический алгоритм на вещественных строках.
+ * **MHL_StandartBinaryGeneticAlgorithm** - стандартный генетический алгоритм на бинарных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf) );
+ * **MHL_StandartRealGeneticAlgorithm** - стандартный генетический алгоритм на вещественных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf)).
+ 
+Скриншоты
+-------------------
+
+![alt text](../master/images/scheme.png "Пример схемы алгоритма")
+
+Про структуру проекта
+---------------------
+
+Файл [**_HarrixOptimizationAlgorithms.pdf**](../master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ "_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации". В нем раполагаются описания модифицированных и иных алгоритмов.
+
+Файл [**MHL_StandartBinaryGeneticAlgorithm.pdf**](../master/MHL_StandartBinaryGeneticAlgorithm.pdf) - подробное описание стандартного генетического алгоритма на бинарных строках.
+
+Файл [**MHL_StandartRealGeneticAlgorithm.pdf**](../master/MHL_StandartRealGeneticAlgorithm.pdf) - подробное описание стандартного генетического алгоритма на вещественных строках строках.
+
+В корневой папке находятся две папки. 
+
+В папке [**Source**](../master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixOptimizationAlgorithms.tex**](../master/_HarrixOptimizationAlgorithms.tex) (это исходник pdf документа) и файлы, которые являются вызываемыми или вспомогательными для [**_HarrixOptimizationAlgorithms.tex**](../master/_HarrixOptimizationAlgorithms.tex).
+
+В папке [**images**](../master/images) находятся служебные рисунки для отображения в этом файле.
 
 Сведения для редактирования файлов
 ----------------------------------
