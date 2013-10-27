@@ -9,6 +9,10 @@ https://github.com/Harrix/HarrixOptimizationAlgorithms
 
 Данные распространяются по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
 
+Тестирование алгоритмов представлено тут:
+
+https://github.com/Harrix/HarrixDataOfOptimizationTesting
+
 Список алгоритмов
 -----------------
 
