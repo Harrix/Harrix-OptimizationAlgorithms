@@ -1,7 +1,7 @@
 HarrixOptimizationAlgorithms
 ============================
 
-Версия 1.0
+Версия 1.1
 
 Сборник описаний алгоритмов оптимизации.
 
@@ -18,6 +18,8 @@ https://github.com/Harrix/HarrixDataOfOptimizationTesting
 
  * **MHL_StandartBinaryGeneticAlgorithm** - стандартный генетический алгоритм на бинарных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf) );
  * **MHL_StandartRealGeneticAlgorithm** - стандартный генетический алгоритм на вещественных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf)).
+ * **MHL_BinaryGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм на бинарных строках с изменяющимся соотношением числа поколений и размера популяции (в документе [_HarrixOptimizationAlgorithms.pdf](../master/_HarrixOptimizationAlgorithms.pdf)).
+ * **MHL_RealGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм на вещественных строках с изменяющимся соотношением числа поколений и размера популяции (в документе [_HarrixOptimizationAlgorithms.pdf](../master/_HarrixOptimizationAlgorithms.pdf)).
  
 Скриншоты
 -------------------
