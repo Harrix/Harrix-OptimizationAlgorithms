@@ -1,7 +1,7 @@
 HarrixOptimizationAlgorithms
 ============================
 
-Версия 1.1
+Версия 1.2
 
 Сборник описаний алгоритмов оптимизации.
 
@@ -16,10 +16,10 @@ https://github.com/Harrix/HarrixDataOfOptimizationTesting
 Список алгоритмов
 -----------------
 
- * **MHL_StandartBinaryGeneticAlgorithm** - стандартный генетический алгоритм на бинарных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf) );
- * **MHL_StandartRealGeneticAlgorithm** - стандартный генетический алгоритм на вещественных строках (в документе [MHL_StandartBinaryGeneticAlgorithm.pdf](../master/MHL_StandartBinaryGeneticAlgorithm.pdf)).
- * **MHL_BinaryGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм на бинарных строках с изменяющимся соотношением числа поколений и размера популяции (в документе [_HarrixOptimizationAlgorithms.pdf](../master/_HarrixOptimizationAlgorithms.pdf)).
- * **MHL_RealGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм на вещественных строках с изменяющимся соотношением числа поколений и размера популяции (в документе [_HarrixOptimizationAlgorithms.pdf](../master/_HarrixOptimizationAlgorithms.pdf)).
+ * **MHL_StandartBinaryGeneticAlgorithm** - стандартный генетический алгоритм для решения задач на бинарных строках;
+ * **MHL_StandartRealGeneticAlgorithm** - стандартный генетический алгоритм для решения задач на вещественных строках;
+ * **MHL_BinaryGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм для решения задач на бинарных строках с изменяющимся соотношением числа поколений и размера популяции;
+ * **MHL_RealGeneticAlgorithmWDPOfNOfGPS** - генетический алгоритм для решения задач на вещественных строках с изменяющимся соотношением числа поколений и размера популяции.
  
 Скриншоты
 -------------------
@@ -29,11 +29,7 @@ https://github.com/Harrix/HarrixDataOfOptimizationTesting
 Про структуру проекта
 ---------------------
 
-Файл [**_HarrixOptimizationAlgorithms.pdf**](../master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ "_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации". В нем раполагаются описания модифицированных и иных алгоритмов.
-
-Файл [**MHL_StandartBinaryGeneticAlgorithm.pdf**](../master/MHL_StandartBinaryGeneticAlgorithm.pdf) - подробное описание стандартного генетического алгоритма на бинарных строках.
-
-Файл [**MHL_StandartRealGeneticAlgorithm.pdf**](../master/MHL_StandartRealGeneticAlgorithm.pdf) - подробное описание стандартного генетического алгоритма на вещественных строках строках.
+Файл [**_HarrixOptimizationAlgorithms.pdf**](../master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ "_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации". В нем располагаются описания алгоритмов.
 
 В корневой папке находятся две папки. 
 

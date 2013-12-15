@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.29)  4 DEC 2013 13:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.1.29)  15 DEC 2013 12:07
 entering extended mode
 **_HarrixOptimizationAlgorithms.tex
 
@@ -1372,11 +1372,7 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 Package hyperref Info: Option `colorlinks' set `true' on input line 179.
 )
 (C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\_HarrixOptimizat
-ionAlgorithms.aux
-
-LaTeX Warning: Label `HarrixOptimizationAlgorithms:GA001' multiply defined.
-
-)
+ionAlgorithms.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -1398,8 +1394,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Try loading font information for T2A+faq on input line 11.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pscyr\t2afaq.fd"
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count168
 \scratchdimen=\dimen208
@@ -1501,32 +1496,58 @@ File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
  [1
 
 {C:/Users/ENTER/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\introduction.tex
+)
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\section_symbols.
+tex [2])
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\first_informamti
+on.tex) [3]
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\MHL_StandartBina
+ryGeneticAlgorithm.tex
+Underfull \hbox (badness 4872) in paragraph at lines 17--18
+[]\T2A/faq/m/n/12 В биб-лио-те-ке HarrixMathLibrary дан-ный ал-го-ритм ре-а-ли-
+зо-ван в вде функ-ции
+ []
+
+)
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\MHL_StandartReal
+GeneticAlgorithm.tex
+Underfull \hbox (badness 4872) in paragraph at lines 17--18
+[]\T2A/faq/m/n/12 В биб-лио-те-ке HarrixMathLibrary дан-ный ал-го-ритм ре-а-ли-
+зо-ван в вде функ-ции
+ []
+
+)
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\MHL_BinaryGeneti
+cAlgorithmWDPOfNOfGPS.tex [4]
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T2A/faq/m/n/12 Основан на стан-дарт-ном ге-не-ти-че-ском ал-го-рит-ме на би-
 нар-ных стро-ках:
  []
 
-[4]
-Underfull \hbox (badness 4872) in paragraph at lines 138--139
+
+Underfull \hbox (badness 4872) in paragraph at lines 47--48
 []\T2A/faq/m/n/12 В биб-лио-те-ке HarrixMathLibrary дан-ный ал-го-ритм ре-а-ли-
 зо-ван в вде функ-ции
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[5])
+(C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\MHL_RealGeneticA
+lgorithmWDPOfNOfGPS.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []\T2A/faq/m/n/12 Основан на стан-дарт-ном ге-не-ти-че-ском ал-го-рит-ме на ве-
 ще-ствен-ных стро-ках:
  []
 
-[5]
-Underfull \hbox (badness 4872) in paragraph at lines 191--192
+[6]
+Underfull \hbox (badness 4872) in paragraph at lines 47--48
 []\T2A/faq/m/n/12 В биб-лио-те-ке HarrixMathLibrary дан-ный ал-го-ритм ре-а-ли-
 зо-ван в вде функ-ции
  []
 
+)
 No file _HarrixOptimizationAlgorithms.bbl.
-[6]
+[7]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 163.
 See the caption package documentation for explanation.
@@ -1535,30 +1556,26 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[ruled] on input line 195.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 
 (C:\Dropbox\Dropbox\GitHub\HarrixOptimizationAlgorithms\Source\_HarrixOptimizat
 ionAlgorithms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `_HarrixOptimizationAlgorithms.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 72B204073F70E2A4A35709F0A39D8E0D;2915.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+(rerunfilecheck)             Checksum: E0A558B28856499DB73448377EC50CFC;4796.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 30546 strings out of 493921
- 608984 string characters out of 3144876
+ 30578 strings out of 493921
+ 610818 string characters out of 3144876
  786145 words of memory out of 3000000
- 33174 multiletter control sequences out of 15000+200000
+ 33181 multiletter control sequences out of 15000+200000
  32700 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 63i,9n,74p,2332b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,9n,74p,2359b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/pscyr/antiq7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
@@ -1568,9 +1585,9 @@ type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on _HarrixOptimizationAlgorithms.pdf (6 pages, 134039 bytes).
+Output written on _HarrixOptimizationAlgorithms.pdf (7 pages, 140994 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
