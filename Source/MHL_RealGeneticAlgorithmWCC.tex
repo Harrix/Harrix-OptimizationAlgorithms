@@ -1,0 +1,31 @@
+\subsection{Генетический алгоритм для решения задач на вещественных строках, в котором есть только два вида скрещивания: одноточечное и двухточечное скрещивание с возможностью полного копирования одного из родителей}\label{HarrixOptimizationAlgorithms:MHL_RealGeneticAlgorithmWCC}
+
+\textbf{Тип алгоритма}: исследовательский алгоритм оптимизации.
+
+\textbf{Идентификатор:} MHL\_RealGeneticAlgorithmWCC.
+
+\textbf{Название:} генетический алгоритм для решения задач на вещественных строках, в котором есть только два вида скрещивания: одноточечное и двухточечное скрещивание с возможностью полного копирования одного из родителей.
+
+Основан на стандартном генетическом алгоритме на бинарных строках:  \href{https://github.com/Harrix/Standard-Genetic-Algorithm}{https://github.com/Harrix/Standard-Genetic-Algorithm}. 
+
+Отличается от стандартного генетического алгоритма тем, что есть только два вида скрещивания: одноточечное и двухточечное скрещивание с возможностью полного копирования одного из родителей. Равномерное скрещивание отсутствует. То есть данным алгоритмом проверяем: есть ли разница в эффективности алгоритма, если точки разрыва при скрещивании делать и по краям родителей, а не только внутри хромосомы.
+
+В качестве операторов-заменителей используются:
+\begin{itemize}
+\item SinglepointCrossoverWithCopying --- одноточечное скрещивание с возможностью полного копирования одного из родителей;
+\item TwopointCrossoverWithCopying --- двухточечное скрещивание с возможностью полного копирования одного из родителей;
+\end{itemize}
+
+Подробно прочитать о этих двух операторах с формулами и примерами можно тут:
+
+\href{https://github.com/Harrix/HarrixSetOfOperatorsAlgorithms}{https://github.com/Harrix/HarrixSetOfOperatorsAlgorithms}
+
+Число вариантов настроек алгоритма равно \textbf{72}.
+
+Результат исследований алгоритма можно посмотреть тут:
+
+\href{https://github.com/Harrix/HarrixDataOfOptimizationTesting}{https://github.com/Harrix/HarrixDataOfOptimizationTesting}
+
+В библиотеке HarrixMathLibrary данный алгоритм реализован в вде функции MHL\_RealGeneticAlgorithmWCC. Библиотеку можно найти тут:
+
+\href{https://github.com/Harrix/HarrixMathLibrary}{https://github.com/Harrix/HarrixMathLibrary}

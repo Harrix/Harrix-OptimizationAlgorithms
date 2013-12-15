@@ -1,6 +1,10 @@
 HarrixOptimizationAlgorithms
 ============================
 
+1.3
+---
+ * Добавлены алгоритмы MHL_BinaryGeneticAlgorithmWDTS, MHL_RealGeneticAlgorithmWDTS, MHL_BinaryGeneticAlgorithmWCC, MHL_RealGeneticAlgorithmWCC.
+
 1.2
 ---
  * Разделение в исходниках на отдельные tex документы.

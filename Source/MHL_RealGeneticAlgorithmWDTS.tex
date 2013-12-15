@@ -1,0 +1,60 @@
+\subsection{Генетический алгоритм для решения задач на вещественных строках с турнирной селекцией, где размер турнира изменяется от 2 до размера популяции}\label{HarrixOptimizationAlgorithms:MHL_RealGeneticAlgorithmWDTS}
+
+\textbf{Тип алгоритма}: добавочный алгоритм оптимизации.
+
+\textbf{Идентификатор:} MHL\_RealGeneticAlgorithmWDTS.
+
+\textbf{Название:} генетический алгоритм для решения задач на вещественных строках с турнирной селекцией, где размер турнира изменяется от 2 до размера популяции.
+
+Основан на стандартном генетическом алгоритме на вещественных строках:  \href{https://github.com/Harrix/Standard-Genetic-Algorithm}{https://github.com/Harrix/Standard-Genetic-Algorithm}. 
+
+Отличается от стандартного генетического алгоритма, тем, что присутствует только турнирная селекция (пропорциональная и ранговая отсутствуют), но размер турнира может изменяться.
+
+Так как основан на стандартном генетическом алгоритме, то размер популяции вычисляется, как квадратный корень из максимального числа вычислений целевой функции. Поэтому размер турнира $SizeOfTournament$ может теоретически  изменяться в пределах:
+
+\begin{equation}
+SizeOfTournament = \overline{1,int\left( \sqrt{CountOfFitness}\right) }.
+\end{equation}
+
+Тут $CountOfFitness$ --- максимальное число вычислений целевой функции.
+
+$SizeOfTournament$ может принимать следующие значения в данном алгоритме:
+\begin{equation}
+SizeOfTournament \in \begin{Bmatrix}
+2\\ 
+3\\ 
+4\\ 
+5\\ 
+1/3\text{ от популяции}\\ 
+1/2\text{ от популяции}\\ 
+2/3\text{ от популяции}\\ 
+\text{Вся популяция} 
+\end{Bmatrix}
+\end{equation}
+Если записывать строго, то получится следующее множество:
+\begin{equation}
+SizeOfTournament \in \begin{Bmatrix}
+2\\ 
+3\\ 
+4\\ 
+5\\ 
+int\left( \frac{1}{3}\cdot int\left( \sqrt{CountOfFitness}\right)\right)  \\ 
+int\left( \frac{1}{2}\cdot int\left( \sqrt{CountOfFitness}\right)\right)\\ 
+int\left( \frac{2}{3}\cdot int\left( \sqrt{CountOfFitness}\right)\right)\\ 
+int\left( \sqrt{CountOfFitness}\right)
+\end{Bmatrix}
+\end{equation}
+
+То есть $SizeOfTournament$ может принимать $ 8 $ значений.
+
+Число вариантов настроек алгоритма равно \textbf{288}.
+
+При $ SizeOfTournament=2 $ получим обычный стандартный генетический алгоритм (без ранговой и пропорциональной селекции).
+
+Результат исследований алгоритма можно посмотреть тут:
+
+\href{https://github.com/Harrix/HarrixDataOfOptimizationTesting}{https://github.com/Harrix/HarrixDataOfOptimizationTesting}
+
+В библиотеке HarrixMathLibrary данный алгоритм реализован в вде функции MHL\_RealGeneticAlgorithmWDTS. Библиотеку можно найти тут:
+
+\href{https://github.com/Harrix/HarrixMathLibrary}{https://github.com/Harrix/HarrixMathLibrary}
