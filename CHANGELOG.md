@@ -1,6 +1,10 @@
 HarrixOptimizationAlgorithms
 ============================
 
+1.5
+---
+ * Добавлены алгоритмы MHL_BinaryGeneticAlgorithmTournamentSelectionWithReturn, MHL_RealGeneticAlgorithmTournamentSelectionWithReturn.
+
 1.4
 ---
  * Добавлены алгоритмы MHL_BinaryMonteCarloAlgorithm, MHL_RealMonteCarloOptimization.
