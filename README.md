@@ -20,7 +20,7 @@ https://github.com/Harrix/HarrixDataOfOptimizationTesting
 Установка
 ---------
 
-Прочитать подробно об установке и примерах использования можно тут http://blog.harrix.org/?p=1229.
+Прочитать подробно об установке можно тут http://blog.harrix.org/?p=1229.
 
 Список алгоритмов
 -----------------
