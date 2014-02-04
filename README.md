@@ -17,6 +17,11 @@ https://github.com/Harrix/HarrixOptimizationAlgorithms
 
 https://github.com/Harrix/HarrixDataOfOptimizationTesting
 
+Установка
+---------
+
+Прочитать подробно об установке и примерах использования можно тут http://blog.harrix.org/?p=1229.
+
 Список алгоритмов
 -----------------
 
@@ -55,6 +60,12 @@ https://github.com/Harrix/HarrixDataOfOptimizationTesting
 В варианте, который использует автор, в \*.tex файлах справок для отображения русских букв используется модуль pscyr. Об его установке можно прочитать (и скачать) в статье http://blog.harrix.org/?p=444.
 
 Подробное описание установки и настройки связки MiKTeX + TeXstudio + pscyr можно прочитать в статье http://blog.harrix.org/?p=849.
+
+Использованные технологии
+-------------------------
+
+- LaTeX, Qt, MiKTeX, BibTex, TeXstudio, pscyr.
+- HarrixLaTeXDocumentTemplate.
  
 История проекта
 ---------------
