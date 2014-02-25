@@ -44,7 +44,7 @@ HarrixOptimizationAlgorithms
 Про структуру проекта
 ---------------------
 
-Файл [**_HarrixOptimizationAlgorithms.pdf**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ "_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации". В нем располагаются описания алгоритмов.
+Файл [**_HarrixOptimizationAlgorithms.pdf**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ **_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации**. В нем располагаются описания алгоритмов.
 
 В корневой папке находятся две папки. 
 
