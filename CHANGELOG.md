@@ -1,6 +1,10 @@
 HarrixOptimizationAlgorithms
 ============================
 
+1.7
+---
+ * Названия алгоритмов начинаются теперь с MHL, а с HML.
+
 1.6
 ---
  * Добавлены алгоритмы MHL_BinaryGeneticAlgorithmTwiceGenerations, MHL_RealGeneticAlgorithmTwiceGenerations.
