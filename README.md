@@ -7,7 +7,7 @@ HarrixOptimizationAlgorithms
 
 [https://github.com/Harrix/HarrixOptimizationAlgorithms](https://github.com/Harrix/HarrixOptimizationAlgorithms)
 
-Данные распространяются по лицензии [Apache License, Version 2.0](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/LICENSE.txt).
+Данные распространяются по лицензии [MIT](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/LICENSE).
 
 Непосредственно главный файл: [**_HarrixOptimizationAlgorithms.pdf**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/_HarrixOptimizationAlgorithms.pdf).
 
