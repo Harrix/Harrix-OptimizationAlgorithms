@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{packages}
+\input{styles}
+
+\title{HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации нулевого порядка. v. 1.7}
+\author{А.\,Б. Сергиенко}
+\date{\today}
+
+
+\begin{document}
+
+\input{names}
+
+\maketitle
+
+\begin{abstract}
+В данном документе дано собрано множество описаний стандартных, нестандартных алгоритмов, модификаций стандартных. Здесь приведено лишь описание алгоритмов, а не их исследование эффективности. Большинство алгоритмов неэффективны. Это своеобразная <<свалка>>  алгоритмов, которые используются автором. На данный документ можно ссылаться в своих работах, чтобы указать, что тот или иной алгоритм оптимизации подробно описан в этом документе. Тут нет исследований эффективности алгоритмов с данными операторами --- это задача иных проектов. Здесь представлено только описание алгоритмов.
+\end{abstract}
+
+\tableofcontents
+
+\newpage
+
+\input{introduction}
+
+\input{section_symbols}
+
+\input{first_informamtion}
+
+\input{problem}
+
+\section{Стандартный генетический алгоритм}\label{HarrixOptimizationAlgorithms:GA}
+
+\input{HML_StandartBinaryGeneticAlgorithm}
+\input{HML_StandartRealGeneticAlgorithm}
+
+\section{Модификации генетического алгоритма}\label{HarrixOptimizationAlgorithms:ModGA}
+
+\input{HML_BinaryGeneticAlgorithmWDPOfNOfGPS}
+\input{HML_RealGeneticAlgorithmWDPOfNOfGPS}
+\input{HML_BinaryGeneticAlgorithmWDTS}
+\input{HML_RealGeneticAlgorithmWDTS}
+\input{HML_BinaryGeneticAlgorithmWCC}
+\input{HML_RealGeneticAlgorithmWCC}
+\input{HML_BinaryGeneticAlgorithmTournamentSelectionWithReturn}
+\input{HML_RealGeneticAlgorithmTournamentSelectionWithReturn}
+\input{HML_BinaryGeneticAlgorithmTwiceGenerations}
+\input{HML_RealGeneticAlgorithmTwiceGenerations}
+
+\section{Алгоритмы Монте-Карло}\label{HarrixOptimizationAlgorithms:MonteCarlo}
+\input{HML_BinaryMonteCarloAlgorithm}
+\input{HML_RealMonteCarloAlgorithm}
+
+
+% Список литературы
+\addcontentsline{toc}{section}{Список литературы}
+\bibliographystyle{utf8gost71u}  %% стилевой файл для оформления по ГОСТу
+\bibliography{biblio}     %% имя библиографической базы (bib-файла)
+\newpage
+
+\end{document}
