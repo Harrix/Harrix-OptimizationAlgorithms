@@ -7,7 +7,7 @@ HarrixOptimizationAlgorithms
 
 [https://github.com/Harrix/HarrixOptimizationAlgorithms](https://github.com/Harrix/HarrixOptimizationAlgorithms)
 
-Данные распространяются по лицензии [MIT](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/LICENSE).
+Данные распространяются по лицензии [CC BY 4.0](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/LICENSE.md).
 
 Непосредственно главный файл: [**_HarrixOptimizationAlgorithms.pdf**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/_HarrixOptimizationAlgorithms.pdf).
 
@@ -37,7 +37,7 @@ HarrixOptimizationAlgorithms
  * **HML_RealGeneticAlgorithmTournamentSelectionWithReturn** - генетический алгоритм для решения задач на вещественных строках  с турнирной селекцией с возвращением, где размер турнира изменяется от 2 до размера популяции.
  * **HML_BinaryGeneticAlgorithmTwiceGenerations** - генетический алгоритм с двойным количеством поколений для решения задач на бинарных строках, где на четных поколениях целевая функция высчитывается как среднеарифметическое родителей;
  * **HML_RealGeneticAlgorithmTwiceGenerations** - генетический алгоритм с двойным количеством поколений для решения задач на вещественных строках, где на четных поколениях целевая функция высчитывается как среднеарифметическое родителей;
- 
+
 Скриншоты
 -------------------
 
@@ -48,7 +48,7 @@ HarrixOptimizationAlgorithms
 
 Файл [**_HarrixOptimizationAlgorithms.pdf**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/_HarrixOptimizationAlgorithms.pdf) - это непосредственно сам документ **_HarrixOptimizationAlgorithms. Сборник описаний алгоритмов оптимизации**. В нем располагаются описания алгоритмов.
 
-В корневой папке находятся две папки. 
+В корневой папке находятся две папки.
 
 В папке [**Source**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/Source) располагаются файлы непосредственно документа, где находится файл [**_HarrixOptimizationAlgorithms.tex**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/Source/_HarrixOptimizationAlgorithms.tex) (это исходник pdf документа) и файлы, которые являются вспомогательными для [**_HarrixOptimizationAlgorithms.tex**](https://github.com/Harrix/HarrixOptimizationAlgorithms/blob/master/Source/_HarrixOptimizationAlgorithms.tex).
 
@@ -57,7 +57,7 @@ HarrixOptimizationAlgorithms
 Сведения для редактирования файлов
 ----------------------------------
 
-Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/). 
+Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/).
 
 В варианте, который использует автор, в \*.tex файлах справок для отображения русских букв используется модуль pscyr. Об его установке можно прочитать (и скачать) в статье [http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444).
 
@@ -68,7 +68,7 @@ HarrixOptimizationAlgorithms
 
 - [LaTeX](http://ru.wikipedia.org/wiki/LaTeX), [MiKTeX](http://miktex.org/), [BiBTex](http://ru.wikipedia.org/wiki/BibTeX), [TeXstudio](http://texstudio.sourceforge.net/), [PSCyr]([http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444)).
 - [HarrixLaTeXDocumentTemplate](https://github.com/Harrix/HarrixLaTeXDocumentTemplate).
- 
+
 История проекта
 ---------------
 
